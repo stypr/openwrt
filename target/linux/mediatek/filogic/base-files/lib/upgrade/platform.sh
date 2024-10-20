@@ -121,6 +121,7 @@ platform_do_upgrade() {
 		CI_KERNPART="linux"
 		nand_do_upgrade "$1"
 		;;
+	iptime,ax3000m|\
 	cudy,wr3000h-v1)
 		CI_UBIPART="ubi"
 		nand_do_upgrade "$1"
